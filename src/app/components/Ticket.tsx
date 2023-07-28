@@ -21,7 +21,7 @@ const Ticket = () => {
                     </span>
                     <h2 className="font-medium text-slate-800">NOK AIR</h2>
                   </div>
-                  <div className="ml-auto text-yellow-300">A380</div>
+                  <div className="ml-auto text-yellow-300">DD7104</div>
                 </div>
                 <div className="border-dashed border-b-2 my-5"></div>
                 <div className="flex items-center">
