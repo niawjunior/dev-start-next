@@ -3,7 +3,10 @@ import IconStar from "./IconStar"
 const ProductCard = () => {
   return (
     <div className="my-10">
-      <div className="bg-white shadow-md flex flex-col items-center rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+      <div
+        className="bg-white shadow-md flex flex-col items-center rounded-lg max-w-sm
+       dark:bg-gray-800 dark:border-gray-700"
+      >
         <a href="#">
           <Image
             width={"300"}
@@ -25,7 +28,10 @@ const ProductCard = () => {
             <IconStar />
             <IconStar />
             <IconStar />
-            <span className="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">
+            <span
+              className="bg-blue-100 text-blue-800 text-xs
+            font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3"
+            >
               5.0
             </span>
           </div>
@@ -35,7 +41,10 @@ const ProductCard = () => {
             </span>
             <a
               href="#"
-              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              className="text-white bg-blue-700 hover:bg-blue-800
+              focus:ring-4 focus:ring-blue-300 font-medium rounded-lg
+              text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700
+              dark:focus:ring-blue-800"
             >
               Add to cart
             </a>
