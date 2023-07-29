@@ -1,15 +1,15 @@
 import Image from "next/image"
 const Ticket = () => {
   return (
-    <div className="bg-plane flex flex-col items-center justify-center min-h-screen bg-center bg-cover">
-      <div className="absolute bg-slate-800 opacity-80 inset-0 z-0"></div>
+    <div className=" flex flex-col items-center justify-center min-h-screen bg-center bg-cover">
+      <div className="absolute bg-slate-800 opacity-80 inset-0 z-0"></div> 
       <div className="max-w-md w-full h-full mx-auto z-10 bg-yellow-300 rounded-3xl">
         <div className="flex flex-col">
-          <div className="bg-white relative drop-shadow-2xl  rounded-3xl p-4 m-4">
+          <div className="bg-white relative drop-shadow-2xl rounded-3xl p-4 m-4">
             <div className="flex-none sm:flex">
               <div className="flex-auto justify-evenly">
                 <div className="flex items-center justify-between">
-                  <div className="flex items-center  my-1">
+                  <div className="flex items-center my-1">
                     <span className="mr-3 rounded-full bg-white w-8 h-8">
                       <Image
                         width={32}
@@ -27,10 +27,10 @@ const Ticket = () => {
                 <div className="flex items-center">
                   <div className="flex flex-col">
                     <div className="flex-auto text-xs text-gray-400 my-1">
-                      <span className="mr-1 ">MO</span>
+                      <span className="mr-1">MO</span>
                       <span>19 23</span>
                     </div>
-                    <div className="w-full flex-none text-lg text-yellow-300 font-bold leading-none">
+                    <div className="w-full flex-none text-lg text-yellow-300 leading-none">
                       DMK
                     </div>
                     <div className="text-xs text-slate-800">Don Mueang</div>
@@ -44,7 +44,7 @@ const Ticket = () => {
                       className="w-20 p-1 rounded-full"
                     />
                   </div>
-                  <div className="flex flex-col ">
+                  <div className="flex flex-col">
                     <div className="flex-auto text-xs text-gray-400 my-1">
                       <span className="mr-1">MO</span>
                       <span>19 23</span>
@@ -55,7 +55,7 @@ const Ticket = () => {
                     <div className="text-xs text-slate-800">Khonkaen</div>
                   </div>
                 </div>
-                <div className="border-dashed border-b-2 my-5 pt-5">
+                <div className="border-dashed border-b-2 my-5 py-5">
                   <div className="absolute rounded-full w-5 h-5 bg-yellow-300 -mt-2 -left-2"></div>
                   <div className="absolute rounded-full w-5 h-5 bg-yellow-300 -mt-2 -right-2"></div>
                 </div>
@@ -101,9 +101,8 @@ const Ticket = () => {
                     <div className="font-semibold">12 E</div>
                   </div>
                 </div>
-                <div className="flex flex-col py-5  justify-center text-sm text-slate-800">
+                <div className="flex flex-col py-5 justify-center text-sm text-slate-800">
                   <h6 className="font-bold text-center">Boarding Pass</h6>
-
                   <div className="barcode h-14 w-0 inline-block mt-4 relative left-auto"></div>
                 </div>
               </div>
